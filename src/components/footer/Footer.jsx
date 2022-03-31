@@ -1,9 +1,32 @@
 import React from 'react'
 import './footer.css'
+import {FiInstagram} from 'react-icons/fi'
+import {RiKakaoTalkLine} from 'react-icons/ri'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer>
+      <a href="#" className='footer__logo'>LEEZY</a>
+
+      <ul className="permalinks">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div className="footer__socials">
+        <a href="https://www.instagram.com/leeg1/"><FiInstagram/></a>
+        <a href="https://www.instagram.com/leeg1/"><RiKakaoTalkLine/></a>
+        <a href="https://www.instagram.com/leeg1/"><RiKakaoTalkLine/></a>
+      </div>
+
+      <div className="footer__copyright">
+        <small>&copy LEEZY</small>
+      </div>
+    </footer>
   )
 }
 
