@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
-
 * {
   margin: 0;
   padding: 0;
@@ -48,7 +47,11 @@ body {
   width: var(--container-width-lg);
   margin: 0 auto;
 }
-h1,h2,h3,h4,h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   font-weight:500;
 }
 
@@ -58,6 +61,7 @@ h1{
 
 section {
   margin-top: 8rem;
+  height: 100vh;
 }
 
 section > h2, 

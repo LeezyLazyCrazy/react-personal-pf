@@ -5,28 +5,27 @@
 }
 
 .about__me {
-  width: 100%;
+  width: 66%;
   aspect-ratio: 1/1;
   border-radius: 2rem;
-  background: linear-gradient
-  (45deg, 
-  transparent, 
-  var(--color-primary), 
-  transparent);
+  background: linear-gradient(
+    45deg, 
+    transparent, 
+    var(--color-primary), 
+    transparent
+  );
   display: grid;
   place-items: center;
 }
 
 .about__me-image {
   height: 400px;
-  width: 320px;
+  width: 340px;
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(10deg);
   transition: var(--transition);
 }
-
-
 
 .about__me-image:hover {
   transform: rotate(0);
@@ -75,11 +74,12 @@
 
 /* ============MEDIA QUERIES (MEDIUM DEVICES)========== */
 @media  screen and(max-width:1024px) {
- .about__container{
+ .about__container {
    grid-template-columns: 1fr;
-   gap: 0;}
+   gap: 0;
+  }
 
-  .about__me{
+  .about__me {
     width: 50%;
     margin: 2rem auto 4rem;
    }

@@ -11,42 +11,64 @@ const data = [
   {
     id:1,
     image: IMG1,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
+    title: 'React-Portfolio ',
+    date: '2022.Apr',
     github: 'https://github.com/LeezyLazyCrazy',
     demo: 'https://leezy-portfolio.netlify.app'
   },
   {
     id:2,
     image: IMG2,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
+    title: 'Vuejs-PortFolio ',
+    date: '2022.Mar',
     github: 'https://github.com/LeezyLazyCrazy',
     demo: 'https://leezy-portfolio.netlify.app'
   },
   {
     id:3,
     image: IMG3,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
+    title: 'React-MovieAPI ',
+    date: '2022.Apr',
     github: 'https://github.com/LeezyLazyCrazy',
     demo: 'https://leezy-portfolio.netlify.app'
   },
   {
     id:4,
     image: IMG4,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
+    title: 'Vuejs-MovieAPI ',
+    date: '2022.Jan',
     github: 'https://github.com/LeezyLazyCrazy',
     demo: 'https://leezy-portfolio.netlify.app'
   },
   {
     id:5,
     image: IMG5,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
+    title: 'Threejs-Squidgame ',
+    date: '2021.Dec',
     github: 'https://github.com/LeezyLazyCrazy',
     demo: 'https://leezy-portfolio.netlify.app'
   },
   {
     id:6,
     image: IMG6,
-    title: 'Crypto Currency Dashboard & Financial Visualization',
+    title: 'Threejs-Flag ',
+    date: '2022.Mar',
+    github: 'https://github.com/LeezyLazyCrazy',
+    demo: 'https://leezy-portfolio.netlify.app'
+  },
+  {
+    id:7,
+    image: IMG6,
+    title: 'To-do-list ',
+    date: '2022.Mar',
+    github: 'https://github.com/LeezyLazyCrazy',
+    demo: 'https://leezy-portfolio.netlify.app'
+  },
+  {
+    id:8,
+    image: IMG6,
+    title: 'E-commerce ',
+    date: '2022.Apr',
     github: 'https://github.com/LeezyLazyCrazy',
     demo: 'https://leezy-portfolio.netlify.app'
   },
@@ -62,16 +84,19 @@ const Portfolio = () => {
       <div className="container portfolio__container">
 
         {
-          data.map(({id, image, title, github, demo}) => {
+          data.map(({id, image, title, date, github, demo}) => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
                   <img src={ image } alt={title}/>
                 </div>
+               
                 <h3>{title}</h3>
+                <h5>{date}</h5>
+                
                 <div className="portfolio__item-cta">
                   <a href={github} className="btn">Github</a>
-                  <a href={demo} className="btn btn-primary" target='_blank'>Live Demo</a>
+                  <a href={demo} className="btn btn-primary" target='_blank'rel='noreferrer'>Live Demo</a>
                 </div>                                 
               </article>
             )
