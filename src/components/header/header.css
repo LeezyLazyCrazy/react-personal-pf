@@ -47,11 +47,6 @@ header {
  padding: 1.5rem -0.5rem 0rem 0rem;
 }
 
-.me img {
-  _transition: transform 4s;
-  _transform: scale(1.1);
-  _height: -webkit-fill-available;
-}
 
 /*============ SCROLL DOWN =============*/
 .scroll__down {
