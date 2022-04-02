@@ -30,7 +30,7 @@ header {
 .header__socials::after {
   content: '';
   width: 1px;
-  height: 2rem;
+  height: 4rem;
   background: var(--color-primary);
 }
 
@@ -52,7 +52,7 @@ header {
 .scroll__down {
   position: absolute;
   right: -2.3rem;
-  bottom: 5rem;
+  bottom: 10rem;
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
