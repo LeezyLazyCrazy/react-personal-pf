@@ -1,11 +1,12 @@
 import React from "react";
 import './portfolio.css';
-import IMG1 from '../../assets/portfolio1.jpg';
-import IMG2 from '../../assets/portfolio2.jpg';
+import IMG1 from '../../assets/pf-react.png';
+import IMG2 from '../../assets/pf-vue.png';
 import IMG3 from '../../assets/portfolio3.jpg';
-import IMG4 from '../../assets/portfolio4.jpg';
-import IMG5 from '../../assets/portfolio5.png';
+import IMG4 from '../../assets/pf-movie-vue.png';
+import IMG5 from '../../assets/pf-squid.png';
 import IMG6 from '../../assets/portfolio6.jpg';
+import IMG7 from '../../assets/pf-todo.png';
 
 const data = [
   {
@@ -20,7 +21,7 @@ const data = [
   {
     id:2,
     image: IMG2,
-    title: 'Vuejs-PortFolio ',
+    title: 'Vue-PortFolio ',
     date: '2022.Mar',
     tech: ['#vue ','#vuetify ','#sass '],
     github: 'https://github.com/LeezyLazyCrazy/personal-pf.git',
@@ -38,7 +39,7 @@ const data = [
   {
     id:4,
     image: IMG4,
-    title: 'Vuejs-MovieAPI ',
+    title: 'Vue-MovieAPI ',
     date: '2022.Jan',
     tech: ['#vue ','#sass ','#omdbAPI ','#bootstrap '],
     github: 'https://github.com/LeezyLazyCrazy/Vue3-MovieAPI-v1',
@@ -64,7 +65,7 @@ const data = [
   },
   {
     id:7,
-    image: IMG6,
+    image: IMG7,
     title: 'To-do-list ',
     date: '2022.Mar',
     tech: ['#html ','#css ','#vanilla-js '],

@@ -37,7 +37,10 @@
 }
 
 .service__list {
+    display: grid;
     padding: 2rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
 }
 
 .service__list li {

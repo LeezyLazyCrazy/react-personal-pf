@@ -53,6 +53,10 @@ const Services = () => {
             </li>
             <li>
               <BsPatchCheckFill className='service__list-icon'/>
+              <p>OPEN API</p>
+            </li>
+            <li>
+              <BsPatchCheckFill className='service__list-icon'/>
               <p>VUETIFY</p>
             </li>
             <li>
@@ -67,6 +71,7 @@ const Services = () => {
               <BsPatchCheckFill className='service__list-icon'/>
               <p>GITHUB</p>
             </li>
+            
           </ul>
         </article>
         {/* End Of Web */}
