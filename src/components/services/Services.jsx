@@ -20,15 +20,23 @@ const Services = () => {
             </li>
             <li>
               <BsPatchCheckFill className='service__list-icon'/>
-              <p>HTML</p>
+              <p>CSS</p>
             </li>
             <li>
               <BsPatchCheckFill className='service__list-icon'/>
-              <p>HTML</p>
+              <p>SCSS</p>
             </li>
             <li>
               <BsPatchCheckFill className='service__list-icon'/>
-              <p>HTML</p>
+              <p>JAVASCRIPT</p>
+            </li>
+            <li>
+              <BsPatchCheckFill className='service__list-icon'/>
+              <p>REACT</p>
+            </li>
+            <li>
+              <BsPatchCheckFill className='service__list-icon'/>
+              <p>VUE</p>
             </li>
           </ul>
         </article>
@@ -41,19 +49,23 @@ const Services = () => {
           <ul className='service__list'>
             <li>
               <BsPatchCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>THREE.JS</p>
             </li>
             <li>
               <BsPatchCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>VUETIFY</p>
             </li>
             <li>
               <BsPatchCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>BOOTSTRAP</p>
             </li>
             <li>
               <BsPatchCheckFill className='service__list-icon'/>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <p>MYSQL</p>
+            </li>
+            <li>
+              <BsPatchCheckFill className='service__list-icon'/>
+              <p>GITHUB</p>
             </li>
           </ul>
         </article>
