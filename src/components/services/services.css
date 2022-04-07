@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 3rem;
-    padding: 0 5rem 0 5rem;
+    padding: 0 10rem 0 10rem;
 }
 
 .service {
@@ -32,7 +32,7 @@
 
 .service__head h3 {
     color: var(--color-bg);
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 
@@ -41,6 +41,7 @@
     padding: 2rem;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+    height: 11rem;
 }
 
 .service__list li {
@@ -56,7 +57,7 @@
 }
 
 .service__list p {
-    font-size: 0.9rem;
+    font-size: 1.3rem;
 }
 
 /* ============MEDIA QUERIES (MEDIUM DEVICES)========== */

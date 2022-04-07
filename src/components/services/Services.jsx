@@ -30,20 +30,32 @@ const Services = () => {
               <BsPatchCheckFill className='service__list-icon'/>
               <p>JAVASCRIPT</p>
             </li>
-            <li>
-              <BsPatchCheckFill className='service__list-icon'/>
-              <p>REACT</p>
-            </li>
-            <li>
-              <BsPatchCheckFill className='service__list-icon'/>
-              <p>VUE</p>
-            </li>
+
           </ul>
         </article>
         {/* End Of UI/ UX */}
         <article className='service'>
           <div className="service__head">
-            <h3>Ect Development</h3>
+            <h3>Framework </h3>
+          </div>
+
+          <ul className='service__list'>
+            <li>
+                <BsPatchCheckFill className='service__list-icon'/>
+                <p>REACT</p>
+              </li>
+            <li>
+                <BsPatchCheckFill className='service__list-icon'/>
+                <p>VUE</p>
+            </li>
+
+
+            
+          </ul>
+        </article>
+        <article className='service'>
+          <div className="service__head">
+            <h3>Library</h3>
           </div>
 
           <ul className='service__list'>
@@ -53,15 +65,26 @@ const Services = () => {
             </li>
             <li>
               <BsPatchCheckFill className='service__list-icon'/>
-              <p>OPEN API</p>
-            </li>
-            <li>
-              <BsPatchCheckFill className='service__list-icon'/>
               <p>VUETIFY</p>
             </li>
             <li>
               <BsPatchCheckFill className='service__list-icon'/>
               <p>BOOTSTRAP</p>
+            </li>
+
+            
+          </ul>
+        </article>
+        <article className='service'>
+          <div className="service__head">
+            <h3>Ect</h3>
+          </div>
+
+          <ul className='service__list'>
+
+            <li>
+              <BsPatchCheckFill className='service__list-icon'/>
+              <p>OPEN API</p>
             </li>
             <li>
               <BsPatchCheckFill className='service__list-icon'/>
