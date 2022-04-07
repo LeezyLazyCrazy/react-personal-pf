@@ -11,9 +11,15 @@ const Contact = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    emailjs.sendForm('service_gtrntgr', 'template_3483i4m', form.current, 'nKNOb27V6I57lwPmC')
+    emailjs.sendForm('service_gtrntgr', 'template_3483i4m', form.current, 'template_3483i4m')
+    .then((result) => {
+     alert('Sent',result.text);
+  }, (error) => {
+     alert('fail',error.text);
+  });
     e.target.reset()
   };
+
 
   return (
     <section id="contact">
@@ -47,7 +53,6 @@ const Contact = () => {
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
-
         </form>
       </div>
     </section>
