@@ -2,7 +2,6 @@ import React from "react";
 import './portfolio.css';
 import IMG1 from '../../assets/pf-react.png';
 import IMG2 from '../../assets/pf-vue.png';
-import IMG3 from '../../assets/portfolio3.jpg';
 import IMG4 from '../../assets/pf-movie-vue.png';
 import IMG5 from '../../assets/pf-squid.png';
 import IMG6 from '../../assets/portfolio6.jpg';
@@ -25,15 +24,6 @@ const data = [
     date: '2022.Mar',
     tech: ['#vue ','#vuetify ','#sass '],
     github: 'https://github.com/LeezyLazyCrazy/personal-pf.git',
-    demo: 'https://leezy-portfolio.netlify.app'
-  },
-  {
-    id:3,
-    image: IMG3,
-    title: 'React-MovieAPI ',
-    date: '2022.Apr',
-    tech: ['#react ','#email-js ','#react-icons '],
-    github: 'https://github.com/LeezyLazyCrazy',
     demo: 'https://leezy-portfolio.netlify.app'
   },
   {
@@ -71,15 +61,6 @@ const data = [
     tech: ['#html ','#css ','#vanilla-js '],
     github: 'https://github.com/LeezyLazyCrazy/checklist-note',
     demo: 'https://checklist-note.netlify.app'
-  },
-  {
-    id:8,
-    image: IMG6,
-    title: 'E-commerce ',
-    date: '2022.Apr',
-    tech: ['#react ','#email-js ','#react-icons '],
-    github: 'https://github.com/LeezyLazyCrazy',
-    demo: 'https://leezy-portfolio.netlify.app'
   },
 ]
 
