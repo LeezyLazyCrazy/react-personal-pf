@@ -1,7 +1,9 @@
 import React from 'react'
 import './footer.css'
 import {FiInstagram} from 'react-icons/fi'
-import {RiKakaoTalkLine} from 'react-icons/ri'
+import {FaGithub} from 'react-icons/fa'
+import {FaDiscord} from 'react-icons/fa'
+import {BsLinkedin} from 'react-icons/bs'
 
 const Footer = () => {
   return (
@@ -18,9 +20,10 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.instagram.com/leeg1/"><FiInstagram/></a>
-        <a href="https://www.instagram.com/leeg1/"><RiKakaoTalkLine/></a>
-        <a href="https://www.instagram.com/leeg1/"><RiKakaoTalkLine/></a>
+        <a href="https://www.instagram.com/leeg1/"target="_blank"rel='noreferrer'><FiInstagram/></a>
+        <a href="https://github.com/LeezyLazyCrazy" target="_blank"rel='noreferrer'><FaGithub/></a>
+        <a href="https://www.linkedin.com/in/FEleezy" target="_blank"rel='noreferrer'><BsLinkedin/></a>
+        <a href="https://discord.com/leeg1/"target="_blank"rel='noreferrer'><FaDiscord/></a>
       </div>
 
       <div className="footer__copyright">

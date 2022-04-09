@@ -4,7 +4,7 @@ import IMG1 from '../../assets/pf-react.png';
 import IMG2 from '../../assets/pf-vue.png';
 import IMG4 from '../../assets/pf-movie-vue.png';
 import IMG5 from '../../assets/pf-squid.png';
-import IMG6 from '../../assets/portfolio6.jpg';
+import IMG6 from '../../assets/pf-weather.png';
 import IMG7 from '../../assets/pf-todo.png';
 
 const data = [
@@ -27,6 +27,15 @@ const data = [
     demo: 'https://leezy-portfolio.netlify.app'
   },
   {
+    id:7,
+    image: IMG7,
+    title: 'To-do-list ',
+    date: '2022.Mar',
+    tech: ['#html ','#css ','#vanilla-js ','#localstorage'],
+    github: 'https://github.com/LeezyLazyCrazy/checklist-note',
+    demo: 'https://checklist-note.netlify.app'
+  },
+  {
     id:4,
     image: IMG4,
     title: 'Vue-MovieAPI ',
@@ -47,21 +56,13 @@ const data = [
   {
     id:6,
     image: IMG6,
-    title: 'Threejs-Flag ',
-    date: '2022.Mar',
-    tech: ['#html ','#css ','#three-js '],
-    github: 'https://github.com/LeezyLazyCrazy/threejs-flag.git',
-    demo: 'https://leezy-portfolio.netlify.app'
+    title: 'Vue-WeatherAPI ',
+    date: '2021.Nov',
+    tech: ['#html ','#css ','#kakaoAPI ', '#weatherAPI'],
+    github: 'https://github.com/LeezyLazyCrazy/vue3-weather-api.git',
+    demo: 'https://leezy-vuejs-weather.netlify.app'
   },
-  {
-    id:7,
-    image: IMG7,
-    title: 'To-do-list ',
-    date: '2022.Mar',
-    tech: ['#html ','#css ','#vanilla-js '],
-    github: 'https://github.com/LeezyLazyCrazy/checklist-note',
-    demo: 'https://checklist-note.netlify.app'
-  },
+
 ]
 
 

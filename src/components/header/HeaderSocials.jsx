@@ -9,8 +9,8 @@ const HeaderSocials = () => {
     <div className="header__socials">
       <a href="https://github.com/LeezyLazyCrazy" target="_blank"rel='noreferrer'><FaGithub/></a>
       <a href="https://open.kakao.com/o/sBKP7N5d" target="_blank"rel='noreferrer'><BsFillChatFill/></a>
-      <a href="https://linkedin.com" target="_blank"rel='noreferrer'><BsLinkedin/></a>
-      <a href="https://gmail.com" target="_blank"rel='noreferrer'><SiGmail/></a>
+      <a href="https://www.linkedin.com/in/FEleezy" target="_blank"rel='noreferrer'><BsLinkedin/></a>
+      <a href="mailto:leezy97html@gmail.com" target="_blank"rel='noreferrer'><SiGmail/></a>
     </div>
   )
 }

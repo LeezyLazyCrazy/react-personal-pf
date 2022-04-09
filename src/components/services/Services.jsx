@@ -88,10 +88,6 @@ const Services = () => {
             </li>
             <li>
               <BsPatchCheckFill className='service__list-icon'/>
-              <p>MYSQL</p>
-            </li>
-            <li>
-              <BsPatchCheckFill className='service__list-icon'/>
               <p>GITHUB</p>
             </li>
             
