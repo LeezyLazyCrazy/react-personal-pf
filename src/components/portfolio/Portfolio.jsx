@@ -6,8 +6,18 @@ import IMG4 from '../../assets/pf-movie-vue.png';
 import IMG5 from '../../assets/pf-squid.png';
 import IMG6 from '../../assets/pf-weather.png';
 import IMG7 from '../../assets/pf-todo.png';
+import IMG8 from '../../assets/pf-nft-web.png';
 
 const data = [
+  {
+    id:0,
+    image: IMG8,
+    title: 'React-NFTs-web ',
+    date: '2022.Apr',
+    tech: ['#react ','#email-js ','#react-icons '],
+    github: 'https://github.com/LeezyLazyCrazy/react-nft-website.git',
+    demo: 'https://leezy-portfolio-react.netlify.app/'
+  },
   {
     id:1,
     image: IMG1,
