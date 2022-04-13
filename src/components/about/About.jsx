@@ -41,9 +41,11 @@ const About = () => {
               <small>80+ Completed </small>
             </article>
           </div>
-          <p>
-          I've been digging Vue, React, Three.js. <br/>
-          I'm interested in Interactive Websites as well.
+          <p>         
+          My name is Jiwon Lee I'm a Front End Developer based in S.Korea 👋🏻. <br/> 
+          I describe myself as a passionate developer who into the coding and the web platform.
+          Aside from my job, I like to create something cool It could be anything That helps me to learn a ton of new stuff, grow as a developer.  
+          Also, I've been digging Vue, React and Three.js. So someday I hope to making super cool Interactive Websites as well.   
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
 

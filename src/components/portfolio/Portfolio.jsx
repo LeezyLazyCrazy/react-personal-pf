@@ -23,7 +23,7 @@ const data = [
     image: IMG1,
     title: 'React-Portfolio ',
     date: '2022.Apr',
-    tech: ['#react ','#email-js ','#react-icons '],
+    tech: ['#react ','#grid ','#email-js '],
     github: 'https://github.com/LeezyLazyCrazy/react-personal-pf.git',
     demo: 'https://leezy-portfolio-react.netlify.app/'
   },

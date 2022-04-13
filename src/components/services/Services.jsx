@@ -4,7 +4,7 @@ import {BsPatchCheckFill} from 'react-icons/bs'
 
 const Services = () => {
   return (
-    <section id="services">
+    <section id="experience">
       <h5>What I Skills I Have</h5>
       <h2>My Experience</h2>
       <div className="container services__container">
@@ -71,6 +71,11 @@ const Services = () => {
               <BsPatchCheckFill className='service__list-icon'/>
               <p>BOOTSTRAP</p>
             </li>
+            <li>
+              <BsPatchCheckFill className='service__list-icon'/>
+              <p>TAILWIND</p>
+            </li>
+
 
             
           </ul>
@@ -89,6 +94,10 @@ const Services = () => {
             <li>
               <BsPatchCheckFill className='service__list-icon'/>
               <p>GITHUB</p>
+            </li>
+            <li>
+              <BsPatchCheckFill className='service__list-icon'/>
+              <p>NETLIFY</p>
             </li>
             
           </ul>
