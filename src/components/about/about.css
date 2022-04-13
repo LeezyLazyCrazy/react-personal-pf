@@ -100,6 +100,10 @@
 /* ======= MEDIA QUERIES (SMALL DEVICES) ======= */
 
 @media screen and (max-width:600px) {
+  #about {
+    margin-top: 1rem;
+    padding-top: 1rem;
+  }
   .about__container{
     gap: 5%;
   }

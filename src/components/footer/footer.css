@@ -55,9 +55,11 @@ footer a {
 }
 
 
-/* ======= MEDIA QUERIES (SMALL DEVICES) ======= */
 
-@media screen and (max-width:600px) {
+  
+  /* ======= MEDIA QUERIES (SMALL DEVICES) ======= */
+  
+  @media screen and (max-width:600px) {
     .permalinks {
         flex-direction: column;
         gap: 1.5rem;
@@ -66,3 +68,4 @@ footer a {
         margin-bottom: 2.6rem;
     }
   }
+  

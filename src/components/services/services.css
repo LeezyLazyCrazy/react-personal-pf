@@ -68,9 +68,11 @@
     .services__container {
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
+        display: contents;
     }
     .service {
         height: auto;
+        margin: 4rem;
     } 
     .service__list {
         padding: 1rem;
@@ -84,5 +86,9 @@
         grid-template-columns: 1fr;
         gap: 1rem;
     }
+    .service {
+        height: auto;
+        margin: 2rem;
+    } 
   }
   
