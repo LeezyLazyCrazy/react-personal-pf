@@ -68,7 +68,7 @@ const data = [
     image: IMG6,
     title: 'Vue-WeatherAPI ',
     date: '2021.Nov',
-    tech: ['#html ','#css ','#kakaoAPI ', '#weatherAPI'],
+    tech: ['#html ','#scss ', '#js ','#kakaoAPI ', '#weatherAPI'],
     github: 'https://github.com/LeezyLazyCrazy/vue3-weather-api.git',
     demo: 'https://leezy-vuejs-weather.netlify.app'
   },
