@@ -13,7 +13,7 @@ const data = [
     id:0,
     image: IMG8,
     title: 'React-NFTs-web ',
-    date: '2022.Apr',
+    date: '2022.Apr -ing',
     tech: ['#react ','#email-js ','#react-icons '],
     github: 'https://github.com/LeezyLazyCrazy/react-nft-website.git',
     demo: 'https://leezy-portfolio-react.netlify.app/'
@@ -34,7 +34,7 @@ const data = [
     date: '2022.Mar',
     tech: ['#vue ','#vuetify ','#sass '],
     github: 'https://github.com/LeezyLazyCrazy/personal-pf.git',
-    demo: 'https://leezy-portfolio.netlify.app'
+    demo: 'https://leezy-portfolio-vue.netlify.app'
   },
   {
     id:7,
