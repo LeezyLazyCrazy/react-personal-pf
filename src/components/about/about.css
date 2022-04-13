@@ -105,7 +105,7 @@
     padding-top: 1rem;
   }
   .about__container{
-    gap: 5%;
+    gap: 0%;
   }
   .about__me {
     width: 45%;
@@ -127,7 +127,7 @@
     text-align: center;
   }
   .about__content p {
-    margin: 1.5rem 0 ;
+    margin: 1rem;
   }
 }
 
