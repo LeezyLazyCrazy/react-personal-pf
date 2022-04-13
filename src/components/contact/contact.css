@@ -1,5 +1,6 @@
 #contact {
     padding-top: 4rem;
+    word-break: break-all;
 }
 .container.contact__container {
     width: 50%;
@@ -58,21 +59,24 @@ textarea {
     color: var(--color-white);
 }
 
-/* ============MEDIA QUERIES (MEDIUM DEVICES)========== */
-@media  screen and(max-width:1024px) {
+
+
+
+/* ======= MEDIA QUERIES (MEDIUM DEVICES) ======= */
+ 
+@media screen and (max-width:1024px) {
     .container.contact__container {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
-}
-   
-   
-   /*=============== MEDIA QUERIES (SMALL DEVICES)======== */
-@media  screen and(max-width:600px) {
+  }
+  
+  /* ======= MEDIA QUERIES (SMALL DEVICES) ======= */
+  
+  @media screen and (max-width:600px) {
     .container.contact__container {
         grid-template-columns: 1fr;
         gap: 1rem;
         width: var(--container-width-sm);
     }
-}
-
+  }
