@@ -97,9 +97,8 @@ const Services = () => {
             </li>
             <li>
               <BsPatchCheckFill className='service__list-icon'/>
-              <p>NETLIFY</p>
+              <p>WEBPACK</p>
             </li>
-            
           </ul>
         </article>
         {/* End Of Web */}

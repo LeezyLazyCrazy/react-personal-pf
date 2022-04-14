@@ -88,7 +88,15 @@
     }
     .service {
         height: auto;
-        margin: 2rem 4rem;
+        margin: 2rem 2rem;
     } 
+
+    .service__head {
+        padding: 0.5rem;
+    }
+    .service__list {
+        height: 7rem;
+    }
+
   }
   
