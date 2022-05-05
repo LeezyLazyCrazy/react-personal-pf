@@ -14,9 +14,9 @@ const data = [
     image: IMG8,
     title: 'React-NFTs-web ',
     date: '2022.Apr -ing',
-    tech: ['#react ','#email-js ','#react-icons '],
-    github: 'https://github.com/LeezyLazyCrazy/react-nft-website.git',
-    demo: 'https://leezy-portfolio-react.netlify.app/'
+    tech: ['#react ','#styledcomponent ','#gsap '],
+    github: 'https://github.com/LeezyLazyCrazy/react-weirdos-nfts-web',
+    demo: 'https://react-nfts-website.netlify.app/'
   },
   {
     id:1,
