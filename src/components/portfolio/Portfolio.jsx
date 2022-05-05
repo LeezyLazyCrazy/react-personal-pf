@@ -6,14 +6,14 @@ import IMG4 from '../../assets/pf-movie-vue.png';
 import IMG5 from '../../assets/pf-squid.png';
 import IMG6 from '../../assets/pf-weather.png';
 import IMG7 from '../../assets/pf-todo.png';
-import IMG8 from '../../assets/pf-nft-web.png';
+import IMG8 from '../../assets/pf-react-nft.png';
 
 const data = [
   {
     id:0,
     image: IMG8,
     title: 'React-NFTs-web ',
-    date: '2022.Apr -ing',
+    date: '2022.May',
     tech: ['#react ','#styledcomponent ','#gsap '],
     github: 'https://github.com/LeezyLazyCrazy/react-weirdos-nfts-web',
     demo: 'https://react-nfts-website.netlify.app/'
